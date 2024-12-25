@@ -13,13 +13,7 @@ void buffer_overflow(char *in_buf) {
 int main(int argc, char *argv[]) {
     char buf[20] = {};
     klee_make_symbolic(&buf, sizeof(buf), "buf");
-
-    const char* hello = "Hello, my dearest world!";
-    for (int i = 0; i < sizeof(buf); i++) {
-        buf[i] = hello[i];
-        klee_assume(buf[i] != '\x00');
-    }
-
+    klee_assume(buf[19] != '\x00');
     buffer_overflow(buf);
     return 0;
 }

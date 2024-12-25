@@ -1,3 +1,18 @@
 [submodule "klee-test-projects/Jzon/Jzon"]
 	path = klee-test-projects/Jzon/Jzon
 	url = https://github.com/Zguy/Jzon.git
+[submodule "klee-test-projects/stmr.c/stmr.c"]
+	path = klee-test-projects/stmr.c/stmr.c
+	url = https://github.com/wooorm/stmr.c.git
+[submodule "klee-test-projects/json/json"]
+	path = klee-test-projects/json/json
+	url = https://github.com/rpz80/json.git
+[submodule "klee-test-projects/gzip-hpp/gzip-hpp"]
+	path = klee-test-projects/gzip-hpp/gzip-hpp
+	url = https://github.com/mapbox/gzip-hpp.git
+[submodule "klee-test-projects/tiny-regex-c/tiny-regex-c"]
+	path = klee-test-projects/tiny-regex-c/tiny-regex-c
+	url = https://github.com/kokke/tiny-regex-c.git
+[submodule "klee-test-projects/fft/fft"]
+	path = klee-test-projects/fft/fft
+	url = https://github.com/wareya/fft.git

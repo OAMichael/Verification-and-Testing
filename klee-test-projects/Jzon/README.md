@@ -14,7 +14,7 @@ klee --posix-runtime --libc=uclibc test.bc
 ![](klee-out.png)
 
 
-## KLEE shows that Jzon has a bug at Jzon.h:133 and Jzon.cpp:110 lines.
+## KLEE shows that Jzon has a bug at Jzon.h:133 and Jzon.cpp:110 lines
 
 ### Around Jzon.h:133 line:
 ```cpp
@@ -33,3 +33,5 @@ klee --posix-runtime --libc=uclibc test.bc
 112         }
 ...
 ```
+
+# Conclusion: [Jzon](https://github.com/Zguy/Jzon) **has** bugs with memory management

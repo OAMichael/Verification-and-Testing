@@ -1,5 +1,3 @@
-#include <iostream>
-
 #include "Jzon/Jzon.h"
 #include "Jzon/Jzon.cpp"
 
@@ -7,7 +5,7 @@
 
 
 int main() {
-    Jzon::Node node = Jzon::object();
+    Jzon::Node node;
     klee_make_symbolic(&node, sizeof(node), "node");
 
     node.add("name", "value");
